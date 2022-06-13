@@ -1,2 +1,2 @@
 # dio-desafio-github-primeiro-repositorio
-desafio github do curso DIO - Santander Mobille
+desafio github do curso DIO - Santander Mobile
