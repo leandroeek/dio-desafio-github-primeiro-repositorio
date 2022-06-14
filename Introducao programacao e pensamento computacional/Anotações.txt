@@ -1,1 +1,26 @@
-Testando anotações
+# Técnicas de logica de programação
+
+- Técnica Linear
+  - Modelo Tradicional, não tem vinculo 
+  - Estrutura hierarca
+  - Programação de computadores
+    - Execução sequenciada de operações (única dimensão)
+
+- ​	Técnica estruturada
+  - Objetivo
+    - Escrita
+    - Entendimento
+    - validação
+    - manutenção
+
+- Técnica modular
+
+  - Partes independentes
+
+  - Controlada por um conjunto de regras
+
+  - Cada modulo tem seu conjunto de regras internas
+
+    - Dados de entrada | Processo da transformação | Dados de saída =
+
+      ​									Modelo Padrão
