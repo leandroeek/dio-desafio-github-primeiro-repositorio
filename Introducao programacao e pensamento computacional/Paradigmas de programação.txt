@@ -1,0 +1,35 @@
+### Programação Procedural
+
+A programação procedural é excelente para programação de uso geral e consiste numa lista de instruções para informar ao computador o que fazer passo a passo.
+
+A maioria das linguagens de programação ensinadas na faculdade são procedurais, exemplos:
+
+- C
+- C++
+- Java
+- Pascal
+
+### Programação Orientada ao Objeto
+
+A programação orientada ao objeto (OOP) é o paradigma de programação mais popular devido aos seus benefícios, como a modularidade do código e a capacidade de associar diretamente problemas reais em termos de código.
+
+Neste caso, o programa é escrito como uma coleção de classes e objetos para uma boa comunicação. A entidade menor e básica é objeto e todo tipo de cálculo é realizado apenas nos objetos.
+
+É o paradigma mais popular e requisitado pelas empresas e as principais linguagens que o implementam são:
+
+- PHP
+- Java
+- Ruby
+- C#
+- Python
+
+### Computação Paralela
+
+O paradigma de computação paralela consiste nas instruções sendo divididas entre vários processadores.
+
+Um sistema de computação paralela permite que muitos processadores executem um programa em menos tempo, dividindo-os.
+
+Linguagens que suportam a abordagem de processamento paralelo:
+
+- C
+- C++
