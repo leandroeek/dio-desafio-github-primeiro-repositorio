@@ -14,3 +14,57 @@ Linguagem multiplataforma, orientada a objetos e funcional
 Criada pela Jetbrains
 
 O nome é em homenagem a ilha russa, Kotlin
+
+100% interoperável com java
+
+Front e back (Kotlin/js) e multiplataformas KMM
+
+- ​	Vantagem
+  - null check e type safe
+
+println("Ola Mundo")
+
+###### Conversoes
+
+​	.toByte()
+
+​	.toShort()
+
+​	.toInt()
+
+​	.toLong()
+
+​	.toFloat()
+
+​	.toDouble()
+
+​	.toChar()
+
+###### Declaração de variavel
+
+- var(valor mutavel,CamelCase) Possivel alterar durante a execução
+
+  - Exemplo: var idadeAtual = 22
+
+    var idadeAtual :int?
+
+    idadeAtual= null ou 22
+
+- val(valorImutavel,  CamelCase) Não é possivel alterar durante a execução
+
+  - Exemplo: val idadeAtual = 22
+
+    val idadeAtual:int?
+
+    idadeAtual = null ou 22
+
+- const val (valor imutavel, SNAKE_CASE) Definido durante a compilação
+
+  - Exemplo: const val MIN_AGE = 16
+
+    const val MAX_AGE = 63
+
+
+
+
+
