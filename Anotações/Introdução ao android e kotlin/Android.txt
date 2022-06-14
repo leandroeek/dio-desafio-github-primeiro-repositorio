@@ -3,5 +3,14 @@
 #### Inicio 2005
 
 - Android 3 (honeycomb) a única exclusiva para tablets
-
 - O visual característico começou com o Ice cream sandwich
+
+### Kotlin 
+
+##### inicio 2011
+
+Linguagem multiplataforma, orientada a objetos e funcional
+
+Criada pela Jetbrains
+
+O nome é em homenagem a ilha russa, Kotlin
