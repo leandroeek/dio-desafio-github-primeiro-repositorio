@@ -15,10 +15,6 @@ fun Int.verificaNotaAluno():String{
         
     }          
 }
-
-
-
-
 fun main(){   
 
     var x:Int? = 30
