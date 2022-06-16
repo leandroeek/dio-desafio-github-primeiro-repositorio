@@ -1,0 +1,16 @@
+fun main() {
+	val numero1 = (1..9999).random()
+    val numero2 = (1..9999).random()
+    val operacao = (1..5).random()
+    println(calcular(numero1,numero2,operacao))
+}
+private fun calcular(n1:Int,n2:Int,op:Int):String{
+	return when (op){
+        1 -> {"Soma: $n1 + $n2 = " + (n1 + n2)}
+        2 -> {"Subtracao: $n1 - $n2 = " + (n1 - n2)}
+        3 -> {"Mutiplicação: $n1 x $n2 = " + (n1 * n2)}
+        4 -> {"Divisão: $n1 / $n2 = " + (n1.toFloat() / n2.toFloat()).toFloat()}
+        5 -> {"Porcentagem: $n1 x $n2% = " + (n1 * n2 / 100)}
+        else -> {""}
+    }
+}
