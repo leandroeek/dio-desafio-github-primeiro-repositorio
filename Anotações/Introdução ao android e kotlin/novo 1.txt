@@ -15,3 +15,29 @@ fun Int.verificaNotaAluno():String{
         
     }          
 }
+
+
+
+
+fun main(){   
+
+    var x:Int? = 30
+    var w:Int? = null
+   	var t:String? = x!!.verificaNotaAluno()
+    
+	println(t)
+}
+
+fun Int.verificaNotaAluno():String{
+    println("Nota: $this")
+    
+    return when(this){
+        in 0..4 -> "Reprovado"
+        in 5..7 -> "Mediano"
+        in 8..9 -> "Ótimo"
+        10 -> "Excelente"
+        else -> "Nota não avaliada"
+        
+    }          
+}
+
