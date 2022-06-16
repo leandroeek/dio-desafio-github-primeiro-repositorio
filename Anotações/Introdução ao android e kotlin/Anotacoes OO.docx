@@ -1,0 +1,76 @@
+package one.digitalinnovation.digionebank
+
+class Endereco {
+    var logradouro: String = "Minha Rua"
+    var bairro: String =  "Meu Bairro"
+
+    private set
+    constructor()
+
+    fun enderecoInfo() = "$logradouro e $bairro"
+
+    inner class Cobranca {
+        var logradouroCobranca: String = "Rua cobranca"
+    }
+}
+
+fun main() {
+    val casa = Endereco()
+    println(casa.enderecoInfo() + " " + casa.Cobranca().logradouroCobranca)
+}
+
+
+
+
+
+
+
+package one.digitalinnovation.digionebank
+
+import java.math.BigDecimal
+
+class Casa (
+    val modelo: String,
+    val material: String,
+    val valor: BigDecimal
+){
+    fun valorizacao(valor: BigDecimal){
+
+    }
+    fun desvalorizacao(valor: BigDecimal){
+
+    }
+}
+
+
+
+
+
+
+package one.digitalinnovation.digionebank
+
+data class Estilos(
+    val pintura: String,
+    val andar: Int
+){
+    fun info() = "$pintura e $andar"
+}
+
+
+
+
+
+
+package one.digitalinnovation.digionebank.testes
+
+import one.digitalinnovation.digionebank.Estilos
+
+fun main(){
+    val digiOneCasa = Estilos(pintura = "Latex", andar = 2)
+    println(digiOneCasa.pintura)
+    println(digiOneCasa.andar)
+
+    val casa2 = digiOneCasa.copy(pintura = "Oleo", andar = 1)
+
+    println(casa2.info())
+}
