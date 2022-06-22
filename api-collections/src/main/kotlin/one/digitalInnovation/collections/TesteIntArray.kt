@@ -2,6 +2,7 @@ package one.digitalInnovation.collections
 
 fun main() {
     val values = IntArray(5)
+    val values2 = intArrayOf(1,2,5,8,7,9,62,0,52)
 
     values[0] = 1
     values[1] = 7
@@ -9,20 +10,20 @@ fun main() {
     values[3] = 3
     values[4] = 2
 
-    for (valor in values){
+    for (valor in values2){
         println(valor)
     }
     println("------------------------------")
-    values.forEach {
+    values2.forEach {
         println(it)
     }
     println("------------------------------")
-    for (index in values.indices) {
-        println("$index" + " - " + values[index])
+    for (index in values2.indices) {
+        println("$index" + " - " + values2[index])
     }
     println("------------------------------")
-    values.sort()
-    for (valor in values) {
+    values2.sort()
+    for (valor in values2) {
         println(valor)
     }
 }
